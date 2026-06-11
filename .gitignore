@@ -15,3 +15,17 @@ ec/
 figjam.csv
 pfp.jpg
 william kriigel photo li.png
+
+# Source images — originals kept locally, WebP versions committed
+images/*.png
+images/*.jpg
+!images/android-chrome-192x192.png
+!images/android-chrome-512x512.png
+!images/apple-touch-icon.png
+!images/favicon-16x16.png
+!images/favicon-32x32.png
+
+# Dead CSS drafts — kept locally, not deployed
+css/style.css
+css/style copy.css
+css/layout copy.css

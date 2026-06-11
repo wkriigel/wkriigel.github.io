@@ -247,16 +247,16 @@ footer a:hover {
     0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
 .block .so {
-  background: url("../images/so.png") no-repeat center / cover;
+  background: url("../images/so.webp") no-repeat center / cover;
 }
 .block .zs {
-  background: url("../images/zibasec.png") no-repeat center / cover;
+  background: url("../images/zibasec.webp") no-repeat center / cover;
 }
 .block .gt {
-  background: url("../images/gt.png") no-repeat center / cover;
+  background: url("../images/gt.webp") no-repeat center / cover;
 }
 .block .ec {
-  background: url("../images/eclypsium.png") no-repeat center / cover;
+  background: url("../images/eclypsium.webp") no-repeat center / cover;
 }
 
 /* Lightbox */
