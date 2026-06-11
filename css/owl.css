@@ -111,14 +111,23 @@
     .home .block .owl-carousel .carousel-layout {
         row-gap: var(--size--xl);
     }
+    .home .block .owl-carousel .carousel-layout > .slide {
+        min-width: 40%;
+    }
+    .home .block .owl-carousel .carousel-layout > .text {
+        min-width: 45%;
+        max-width: 55%;
+    }
 }
 
 @media only screen and (max-width: 800px) {
     .home .block .owl-carousel .carousel-layout {
         transform: none;
+        row-gap: var(--size--m);
     }
     .home .block .owl-carousel .carousel-layout > .text {
         min-width: 100%;
         max-width: 100%;
+        margin-top: 1rem;
     }
 }
