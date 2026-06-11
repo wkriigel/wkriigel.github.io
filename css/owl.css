@@ -113,6 +113,7 @@
     }
     .home .block .owl-carousel .carousel-layout > .slide {
         min-width: 40%;
+        max-width: 50%;
     }
     .home .block .owl-carousel .carousel-layout > .text {
         min-width: 45%;
