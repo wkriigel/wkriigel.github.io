@@ -242,6 +242,14 @@ hr {
     min-width: 45%;
     max-width: 49%;
   }
+  .block#about .block-content > .slide {
+    flex: 0 0 40%;
+    max-width: 50%;
+  }
+  .block#about .block-content > .text {
+    flex: 0 0 45%;
+    max-width: 49%;
+  }
 }
 
 .text p + ul {

@@ -286,6 +286,11 @@ footer a:hover {
 .lb-trigger {
   cursor: zoom-in;
 }
+@media (max-width: 800px) {
+  .lb-trigger {
+    cursor: default;
+  }
+}
 body.lb-open {
   overflow: hidden;
 }
