@@ -452,6 +452,14 @@ mark {
     width: 100%;
     max-width: 100%;
   }
+  .block#about .block-content > .slide {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .block#about .block-content > .text {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
   .text {
     min-width: 100%;
   }
