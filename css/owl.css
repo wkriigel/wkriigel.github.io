@@ -1,0 +1,124 @@
+.block .owl-theme .owl-dots .owl-dot span {
+    background: rgba(255, 255, 255, 0.8);
+    outline: 2px solid transparent;
+    transition: all 0.25s ease-in-out;
+}
+.block .owl-theme .owl-dots .owl-dot.active span, .block .owl-theme .owl-dots .owl-dot:hover span {
+    background: transparent;
+    outline: 2px solid rgba(255, 255, 255, 0.749);
+}
+.block .owl-carousel .owl-nav {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  pointer-events: none;
+}
+.block .owl-carousel .owl-nav button.owl-next,
+.block .owl-carousel .owl-nav button.owl-prev {
+    position:absolute;
+    top: 50%;
+    font-family: "Exo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-size: 0;
+    color: white;
+    padding: 0.5rem !important;
+    border-radius: 50%;
+    border: 0 !important;
+    background: transparent !important;
+    outline: none !important;
+    box-shadow: none;
+    transform: none !important;
+    line-height: 1;
+    pointer-events: auto;
+    transition: all 0.5s ease-in-out;
+}
+.block .owl-carousel .owl-nav button.owl-next.disabled,
+.block .owl-carousel .owl-nav button.owl-prev.disabled {
+    opacity: 0.25;
+}
+.block .owl-carousel .owl-nav button.owl-next.disabled:hover,
+.block .owl-carousel .owl-nav button.owl-prev.disabled:hover {
+    background-color: transparent;
+}
+.block .owl-carousel .owl-nav button.owl-next:not(.disabled):hover,
+.block .owl-carousel .owl-nav button.owl-prev:not(.disabled):hover {
+    box-shadow: rgba(0, 0, 0, 0.36) 0 12px 28px 2px;
+    background-color: transparent;
+}
+.block .owl-carousel .owl-nav button.owl-next {
+    right: 1rem;
+    padding: 0.5rem 0.4rem 0.5rem 0.6rem !important;
+}
+.block .owl-carousel .owl-nav button.owl-prev {
+    left: 1rem;
+    padding: 0.5rem 0.6rem 0.5rem 0.4rem !important;
+}
+.block .owl-carousel .owl-nav button.owl-next span,
+.block .owl-carousel .owl-nav button.owl-prev span {
+    font-size: 2rem;
+}
+.block .owl-carousel .owl-nav button.owl-next:focus,
+.block .owl-carousel .owl-nav button.owl-prev:focus {
+    outline: none !important;
+}
+
+/* Home page carousel layout (Zibasec + Georgia Tech) */
+.home .block .owl-carousel {
+    width: 100%;
+    --carousel-x-comp: -5px;
+}
+.home .block .owl-carousel .owl-stage {
+    display: flex;
+}
+.home .block .owl-carousel .carousel-layout {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 100%;
+    padding: 1vh 1vw 5vh;
+    margin: 0;
+    transform: translateX(var(--carousel-x-comp));
+}
+.home .block .owl-carousel .carousel-layout > .slide {
+    min-width: 50%;
+    max-width: 100%;
+}
+.home .block .owl-carousel .carousel-layout > .slide .frame {
+    width: 100%;
+    max-width: 1268px;
+    margin: 0 auto;
+}
+.home .block .owl-carousel .carousel-layout > .text {
+    min-width: 70ch;
+    max-width: 70ch;
+    padding: 0.4rem;
+}
+.home .block .owl-carousel .carousel-layout > .text:has(> .card) {
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.home .block .owl-carousel .carousel-layout > .text > .card p {
+    max-width: 53ch;
+}
+.home .block .owl-carousel .carousel-layout > .text > .view-more {
+    margin: 0 0 var(--size--l);
+}
+@media only screen and (max-width: 2470px) {
+    .home .block .owl-carousel .carousel-layout {
+        row-gap: var(--size--xl);
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .home .block .owl-carousel .carousel-layout {
+        transform: none;
+    }
+    .home .block .owl-carousel .carousel-layout > .text {
+        min-width: 100%;
+        max-width: 100%;
+    }
+}

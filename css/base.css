@@ -1,0 +1,22 @@
+html {
+  box-sizing: border-box;
+  font-size: 24px;
+  color: rgba(255, 255, 255, 0.95);
+  text-shadow: rgba(181, 181, 181, 0.23) 0 22px 70px;
+  scroll-behavior: smooth;
+  background-color: #272430;
+  scrollbar-color: #ffffffaa #272430;
+}
+/* div {border: 1px solid white;} */
+*,
+*:after,
+*:before {
+  box-sizing: inherit;
+}
+body {
+  max-height: 100vh;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}

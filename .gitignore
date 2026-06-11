@@ -1,0 +1,17 @@
+# Local archives and old designs — preserve locally, not deployed
+archive 2024/
+websites/
+applications/
+notes/
+aios/
+
+# Separate dev projects
+ec/
+
+# Local working files
+*.code-workspace
+*.zip
+*.md
+figjam.csv
+pfp.jpg
+william kriigel photo li.png

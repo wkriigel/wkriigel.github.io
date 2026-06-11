@@ -1,0 +1,95 @@
+.btn {
+  padding: 0.5rem 1.75rem;
+  text-align: center;
+  text-decoration: none;
+  color: #3e394a;
+  border-radius: 6px;
+  /* display: flex; */
+  border: 0;
+  background-color: white;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  transition: outline 0.5s ease-in-out 0.25s, box-shadow 0.25s ease-in-out, transform 0.25s ease-in-out;
+}
+.btn:hover {
+  color: #4c455c;
+  box-shadow: rgba(113, 66, 61, 0.18) 0 26px 50px 5px;
+}
+
+.hero .btn.linkedin {
+  padding: 0.85rem 2.5rem;
+  text-transform: uppercase;
+}
+.btn:hover {
+  outline: 0.5rem solid #74e3ef;
+  outline-offset: 1rem;
+}
+/* shadows */
+.btn {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.06);
+}
+.btn:hover {
+  box-shadow: 0px 25px 50px -12px rgba(0, 0, 0, 0.25);
+  transform: scale(1.1);
+}
+.btn:active {
+  box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.06);
+}
+
+/* */
+.email {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  border-radius: 6px;
+  border: 0;
+  background-color: #ffffff0d;
+  backdrop-filter: blur(1px);
+  box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.1), inset 0px 1px 2px rgba(0, 0, 0, 0.06);
+  padding: 0.35rem 0.875rem 0.35rem 0.35rem;
+}
+.hero .email .btn:hover {
+  transition: outline 0.5s ease-in-out 0.2s;
+  outline: 0.2rem solid #74e3ef;
+  outline-offset: 0.2rem;
+}
+
+.mailto {
+  margin: 0 0.125rem;
+  color: var(--color-text);
+  text-decoration: none;
+}
+.mailto:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.15rem;
+  text-decoration-thickness: 0.1rem;
+  text-decoration-color: #74e3ef;
+  text-shadow: rgba(0, 0, 0, 0.25) 2px 2px 7px;
+}
+.hero .email {
+  display: inline-block;
+}
+.hero .email.hidden {
+  display: none;
+}
+.hero .btn.copy i {
+  --fa-animation-duration: 0.5s;
+  --fa-animation-iteration-count: 1;
+}
+
+button.btn i {
+  font-size: 1rem;
+}
+.hero .email button.btn {
+  display: inline-block;
+  margin: 0.25rem;
+  padding: 0.396rem 0.25rem;
+}
+
+*:focus {
+  transition: outline 0.25s ease-in-out 0.1s;
+  outline: 0.2rem solid rgba(255, 255, 255, 0.5);
+}
