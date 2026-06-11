@@ -442,6 +442,7 @@ mark {
   }
   .slide {
     width: 100%;
+    max-width: 100%;
   }
   .text {
     min-width: 100%;

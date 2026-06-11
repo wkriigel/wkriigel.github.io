@@ -126,6 +126,10 @@
         transform: none;
         row-gap: var(--size--m);
     }
+    .home .block .owl-carousel .carousel-layout > .slide {
+        width: 100%;
+        max-width: 100%;
+    }
     .home .block .owl-carousel .carousel-layout > .text {
         min-width: 100%;
         max-width: 100%;

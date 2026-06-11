@@ -258,3 +258,34 @@ footer a:hover {
 .block .ec {
   background: url("../images/eclypsium.png") no-repeat center / cover;
 }
+
+/* Lightbox */
+#lb {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.92);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  cursor: zoom-out;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s ease, visibility 0.2s ease;
+}
+#lb.open {
+  opacity: 1;
+  visibility: visible;
+}
+#lb img {
+  max-width: 90vw;
+  max-height: 90vh;
+  object-fit: contain;
+  pointer-events: none;
+}
+.lb-trigger {
+  cursor: zoom-in;
+}
+body.lb-open {
+  overflow: hidden;
+}
