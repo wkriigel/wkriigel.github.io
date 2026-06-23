@@ -38,8 +38,8 @@
         <section class="block" id="eclypsium01">
           <div class="block-content case-title">
             <div class="text">
-              <h2>Platform Capability Evolution from Feature Request to System Upgrade.</h2>
-              <p>A case study documenting the evolution of a proof-of-concept feature request into a platform-level upgrade.</p>
+              <h2>Unifying Fragmented Legacy Flows Into One Extensible Model</h2>
+              <p>A feature request needed more flexibility than the system could give it. Rather than build a one-off, I defined a model that aligned legacy needs, the new request, and future roadmap items.</p>
               <div class="detail">
                 <div class="label">Company</div>
                 <div class="value">Eclypsium</div>
@@ -66,9 +66,9 @@
                   machines. Its core capability compares devices against expected states to detect unexpected changes or risk conditions.
                 </p>
                 <p>
-                  In its existing form, the platform's primary evaluation flow produced pass/fail outcomes with
+                  In its existing form, the platform's evaluation capability had grown fragmented across legacy and new use cases, producing pass/fail outcomes with
                   <mark>no meaningful transparency</mark>
-                  or user control, limiting trust, auditability, and extensibility. When a new feature request surfaced adjacent needs, I
+                  or user control, limiting trust, auditability, and extensibility. When a new feature request needed more flexibility than the existing system could give it, I
                   used it to restructure the system rather than layering on another isolated workflow. I defined an explicit interaction
                   model that separated what was evaluated, what it was evaluated against, and how differences were interpreted, introducing
                   configuration and control at each step. <mark>Both the legacy and new flows were realigned</mark> around this structure,
@@ -122,9 +122,9 @@
                   quickly or invest in a model that would support multiple workflows over time.
                 </p>
                 <p style="margin-bottom: var(--size--xxl)">
-                  My focus was on clarifying the comparison model, determining how it should surface in the product, and shaping an approach
-                  that engineering could replicate consistently. This took the opportunity to identify conceptual overlap and
-                  <mark>deliver a structure that resolved immediate needs while improving existing use cases</mark>.
+                  My focus was on clarifying the comparison model so it made sense as a mental model for users, determining how it should surface in the
+                  product, and shaping an approach that engineering could replicate consistently. I used this to identify conceptual overlap and
+                  <mark>deliver a structure that resolved immediate needs while improving existing use cases</mark>, aligning legacy needs, the new request, and future roadmap items into one model.
                 </p>
               </div>
             </div>
@@ -141,10 +141,10 @@
                 </p>
                 <p>
                   <strong>Comparison Engine</strong><br />
-                  The product already monitored machines against a known good state to detect unexpected changes of hardware and its
+                  The product already monitored machines against a known good state to detect unexpected changes in hardware and its
                   settings. Although technically sound, the comparison capability was primarily a simple pass / fail outcome. This lack of
                   visibility made the capability difficult to demonstrate, hard to trust in audits, and hid any opportunities for
-                  environment specific self-customization. Specifically, users lacked clarity into:
+                  environment-specific customization. Specifically, users lacked clarity into:
                 </p>
                 <ul>
                   <li>what was being evaluated</li>
@@ -285,7 +285,7 @@
                   By choosing to invest in the comparison model rather than shipping a narrow solution, the feature became easier to
                   explain, credible as an upsell, and applicable beyond a single customer. The workflow now reduced reliance on engineering
                   and support for explanation, troubleshooting, and demonstration. A request that could have resulted in a one-off
-                  implementation instead moved the platform forward in a reusable way.
+                  implementation instead moved the platform forward in a reusable way, giving users, customers, and engineering a shared model.
                 </p>
                 <hr />
                 <div class="view-more" style="margin: 4em 0 2em">
