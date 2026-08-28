@@ -19,12 +19,54 @@
     <link rel="stylesheet" href="OwlCarousel/assets/owlcarousel/assets/owl.carousel.min.css" />
     <link rel="stylesheet" href="OwlCarousel/assets/owlcarousel/assets/owl.theme.default.min.css" />
     <script>
-    !function(t,e){var o,n,p,r;e.__SV||(window.posthog && window.posthog.__loaded)||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.crossOrigin="anonymous",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="rn sn init kn Qr wn Cn yn capture calculateEventProperties Rn register register_once register_for_session unregister unregister_for_session An getFeatureFlag getFeatureFlagPayload getFeatureFlagResult isFeatureEnabled reloadFeatureFlags updateFlags updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures on onFeatureFlags onSurveysLoaded onSessionId getSurveys getActiveMatchingSurveys renderSurvey displaySurvey cancelPendingSurvey canRenderSurvey canRenderSurveyAsync Fn identify setPersonProperties group resetGroups setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags reset setIdentity clearIdentity get_distinct_id getGroups get_session_id get_session_replay_url alias set_config startSessionRecording stopSessionRecording sessionRecordingStarted captureException addExceptionStep captureLog startExceptionAutocapture stopExceptionAutocapture loadToolbar get_property getSessionProperty On En createPersonProfile setInternalOrTestUser Ln gn $n opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing get_explicit_consent_status is_capturing clear_opt_in_out_capturing In debug Kr Pn getPageViewId captureTraceFeedback captureTraceMetric vn".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
-    posthog.init('phc_7ZP3720p9ocOCR1IQ9WkZcAEgWSN3rTOXHxakW5tzv', {
-        api_host: 'https://us.i.posthog.com',
-        defaults: '2026-05-30',
-        person_profiles: 'identified_only',
-    })
+      !(function (t, e) {
+        var o, n, p, r;
+        e.__SV ||
+          (window.posthog && window.posthog.__loaded) ||
+          ((window.posthog = e),
+          (e._i = []),
+          (e.init = function (i, s, a) {
+            function g(t, e) {
+              var o = e.split(".");
+              (2 == o.length && ((t = t[o[0]]), (e = o[1])),
+                (t[e] = function () {
+                  t.push([e].concat(Array.prototype.slice.call(arguments, 0)));
+                }));
+            }
+            (((p = t.createElement("script")).type = "text/javascript"),
+              (p.crossOrigin = "anonymous"),
+              (p.async = !0),
+              (p.src = s.api_host.replace(".i.posthog.com", "-assets.i.posthog.com") + "/static/array.js"),
+              (r = t.getElementsByTagName("script")[0]).parentNode.insertBefore(p, r));
+            var u = e;
+            for (
+              void 0 !== a ? (u = e[a] = []) : (a = "posthog"),
+                u.people = u.people || [],
+                u.toString = function (t) {
+                  var e = "posthog";
+                  return ("posthog" !== a && (e += "." + a), t || (e += " (stub)"), e);
+                },
+                u.people.toString = function () {
+                  return u.toString(1) + ".people (stub)";
+                },
+                o =
+                  "rn sn init kn Qr wn Cn yn capture calculateEventProperties Rn register register_once register_for_session unregister unregister_for_session An getFeatureFlag getFeatureFlagPayload getFeatureFlagResult isFeatureEnabled reloadFeatureFlags updateFlags updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures on onFeatureFlags onSurveysLoaded onSessionId getSurveys getActiveMatchingSurveys renderSurvey displaySurvey cancelPendingSurvey canRenderSurvey canRenderSurveyAsync Fn identify setPersonProperties group resetGroups setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags reset setIdentity clearIdentity get_distinct_id getGroups get_session_id get_session_replay_url alias set_config startSessionRecording stopSessionRecording sessionRecordingStarted captureException addExceptionStep captureLog startExceptionAutocapture stopExceptionAutocapture loadToolbar get_property getSessionProperty On En createPersonProfile setInternalOrTestUser Ln gn $n opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing get_explicit_consent_status is_capturing clear_opt_in_out_capturing In debug Kr Pn getPageViewId captureTraceFeedback captureTraceMetric vn".split(
+                    " ",
+                  ),
+                n = 0;
+              n < o.length;
+              n++
+            )
+              g(u, o[n]);
+            e._i.push([i, s, a]);
+          }),
+          (e.__SV = 1));
+      })(document, window.posthog || []);
+      posthog.init("phc_7ZP3720p9ocOCR1IQ9WkZcAEgWSN3rTOXHxakW5tzv", {
+        api_host: "https://us.i.posthog.com",
+        defaults: "2026-05-30",
+        person_profiles: "identified_only",
+      });
     </script>
     <script src="https://kit.fontawesome.com/5877a904fb.js" crossorigin="anonymous"></script>
     <script src="dist/clipboard.min.js"></script>
@@ -47,11 +89,11 @@
               </p>
               <div class="tags">
                 <ul>
-                  <li class="background">Systems UX</li>
+                  <li class="background">Systems Design</li>
                   <li class="background">Workflow Architecture</li>
                   <li class="background">Data-Dense Interfaces</li>
-                  <li class="background">Security Platforms</li>
-                  <li class="background">DevSecOps Tools</li>
+                  <li class="background">Agentic Building</li>
+                  <li class="background">DevSecOps UX</li>
                 </ul>
               </div>
               <div class="buttons">
@@ -82,7 +124,7 @@
         <section id="work">
           <div class="block" id="eclypsium">
             <div class="block-content">
-              <div class="slide"><img class="frame" src="images/eclypsium-profile.webp" /></div>
+              <div class="slide"><img class="frame" src="images/eclypsium01.webp" width="2536" height="1826" /></div>
               <div class="text">
                 <div class="card">
                   <h2>
@@ -92,8 +134,8 @@
                   <h3>Making Firmware Security Evaluation Configurable</h3>
                   <p>
                     Eclypsium is a security platform that evaluates the integrity of enterprise machine firmware. I restructured the
-                    platform’s legacy evaluation system so administrators could understand, configure, and explain how devices were assessed,
-                    transforming opaque pass/fail outcomes into a transparent model that could scale to future workflows.
+                    platform’s legacy evaluation system so administrators could understand, configure, and explain how devices were
+                    assessed, transforming opaque pass/fail outcomes into a transparent model that could scale to future workflows.
                   </p>
                   <div class="tags">
                     <ul>
@@ -111,7 +153,7 @@
           </div>
           <div class="block" id="sophos">
             <div class="block-content">
-              <div class="slide"><img class="frame" src="images/sophos01.webp" /></div>
+              <div class="slide"><img class="frame" src="images/sophos01.webp" width="2536" height="1826" loading="lazy" /></div>
               <div class="text">
                 <div class="card">
                   <h2>
@@ -143,7 +185,7 @@
               <div class="owl-carousel owl-theme">
                 <div class="carousel-item">
                   <div class="carousel-layout">
-                    <div class="slide"><img class="frame" src="images/zibasec01.webp" /></div>
+                    <div class="slide"><img class="frame" src="images/zibasec01.webp" width="2536" height="2048" loading="lazy" /></div>
                     <div class="text">
                       <div class="card">
                         <h2>
@@ -172,7 +214,7 @@
                 </div>
                 <div class="carousel-item">
                   <div class="carousel-layout">
-                    <div class="slide"><img class="frame" src="images/zibasec02.webp" /></div>
+                    <div class="slide"><img class="frame" src="images/zibasec02.webp" width="2536" height="2048" loading="lazy" /></div>
                     <div class="text">
                       <h3>Transparent Modular Campaign Workflows</h3>
                       <p>
@@ -193,7 +235,7 @@
                 </div>
                 <div class="carousel-item">
                   <div class="carousel-layout">
-                    <div class="slide"><img class="frame" src="images/zibasec03.webp" /></div>
+                    <div class="slide"><img class="frame" src="images/zibasec03.webp" width="2536" height="2048" loading="lazy" /></div>
                     <div class="text">
                       <h3>Accessible Brand Identity</h3>
                       <p>
@@ -201,8 +243,8 @@
                         shadows, and subtle interaction states, creating an approachable interface with strong identity.
                       </p>
                       <p>
-                        The component library delivered consistent navigation, inputs, and action states across the product while meeting WCAG
-                        accessibility requirements for government and compliance-driven environments.
+                        The component library delivered consistent navigation, inputs, and action states across the product while meeting
+                        WCAG accessibility requirements for government and compliance-driven environments.
                       </p>
                       <div class="view-more">
                         <a class="btn" href="#georgiatech"> View Next Project</a>
@@ -218,7 +260,7 @@
               <div class="owl-carousel owl-theme">
                 <div class="carousel-item">
                   <div class="carousel-layout">
-                    <div class="slide"><img class="frame" src="images/gt01.webp" /></div>
+                    <div class="slide"><img class="frame" src="images/gt01.webp" width="2536" height="1826" loading="lazy" /></div>
                     <div class="text">
                       <div class="card">
                         <h2>
@@ -227,10 +269,9 @@
                         </h2>
                         <h3>Government Document Routing Platform</h3>
                         <p>
-                          Modernized internal tools used to manage research proposals, contracts, and compliance approvals
-                          across the Georgia Tech Research Institutes. The work translated paper-based administrative processes into
-                          structured digital workflows and introduced design system concepts to increase engineering efficiency and
-                          consistency.
+                          Modernized internal tools used to manage research proposals, contracts, and compliance approvals across the
+                          Georgia Tech Research Institutes. The work translated paper-based administrative processes into structured digital
+                          workflows and introduced design system concepts to increase engineering efficiency and consistency.
                         </p>
                         <div class="tags">
                           <ul>
@@ -248,7 +289,7 @@
                 </div>
                 <div class="carousel-item">
                   <div class="carousel-layout">
-                    <div class="slide"><img class="frame" src="images/gt02.webp" /></div>
+                    <div class="slide"><img class="frame" src="images/gt02.webp" width="1268" height="1024" loading="lazy" /></div>
                     <div class="text">
                       <h3>Making Complex Routing Understandable</h3>
                       <p>
@@ -269,7 +310,7 @@
                 </div>
                 <div class="carousel-item">
                   <div class="carousel-layout">
-                    <div class="slide"><img class="frame" src="images/gt03.webp" /></div>
+                    <div class="slide"><img class="frame" src="images/gt03.webp" width="2536" height="1634" loading="lazy" /></div>
                     <div class="text">
                       <h3>Introducing Component-Based UI Development</h3>
                       <p>
@@ -294,7 +335,7 @@
         </section>
         <section class="block" id="about">
           <div class="block-content">
-            <div class="slide"><img class="frame" src="images/me.webp" /></div>
+            <div class="slide"><img class="frame" src="images/me.webp" width="1268" height="1024" loading="lazy" /></div>
             <div class="text">
               <div class="card">
                 <h2>About Me</h2>

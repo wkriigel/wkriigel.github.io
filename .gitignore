@@ -29,3 +29,6 @@ images/*.jpg
 css/style.css
 css/style copy.css
 css/layout copy.css
+
+# Editor-local settings
+.vscode/

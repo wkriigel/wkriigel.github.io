@@ -191,6 +191,7 @@ hr {
 }
 .frame {
   width: 100%;
+  height: auto;
   max-width: 1268px;
   margin: 0 auto;
 }
@@ -450,6 +451,16 @@ mark {
   }
   .slide {
     width: 100%;
+    max-width: 100%;
+  }
+  /* Must match the specificity of the max-width: 2470px rules above, or those
+     percentage max-widths win here and the blocks never stack. */
+  .home .block-content > .slide {
+    width: 100%;
+    max-width: 100%;
+  }
+  .home .block-content > .text {
+    min-width: 100%;
     max-width: 100%;
   }
   .block#about .block-content > .slide {
